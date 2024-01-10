@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zoo_logic\Zoo_logic.csproj" />
+    <ProjectReference Include="..\Zoo_Rep\Zoo_Rep.csproj" />
+    <ProjectReference Include="..\Zoo_UI\Zoo_UI.csproj" />
+  </ItemGroup>
+
+</Project>

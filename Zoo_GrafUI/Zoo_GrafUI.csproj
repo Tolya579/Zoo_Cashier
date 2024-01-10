@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Выход.png" />
+    <None Remove="Заказ.png" />
+    <None Remove="О билетах.png" />
+    <None Remove="О животных.png" />
+    <None Remove="ФОН.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Выход.png" />
+    <Resource Include="Заказ.png" />
+    <Resource Include="О билетах.png" />
+    <Resource Include="О животных.png" />
+    <Resource Include="ФОН.png" />
+  </ItemGroup>
+
+</Project>

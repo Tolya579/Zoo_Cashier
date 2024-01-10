@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Zoo_Cashier": {
+      "commandName": "Project",
+      "commandLineArgs": "MENU.txt ZOO.txt TICKETS.txt CHECK.txt COLVOBIL.TXT"
+    }
+  }
+}

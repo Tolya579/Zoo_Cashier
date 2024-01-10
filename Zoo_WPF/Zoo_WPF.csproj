@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Page_Zakaz2.png" />
+    <None Remove="Page_Zakaz3.png" />
+    <None Remove="Выход.png" />
+    <None Remove="Заказ.png" />
+    <None Remove="О билетах.png" />
+    <None Remove="О животных.png" />
+    <None Remove="ФОН.png" />
+    <None Remove="ФОН2.png" />
+    <None Remove="ФОН3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Page_Zakaz2.png" />
+    <Resource Include="Page_Zakaz3.png" />
+    <Resource Include="ФОН3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zoo_logic\Zoo_logic.csproj" />
+    <ProjectReference Include="..\Zoo_Rep\Zoo_Rep.csproj" />
+    <ProjectReference Include="..\Zoo_UI\Zoo_UI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Выход.png" />
+    <Resource Include="Заказ.png" />
+    <Resource Include="О билетах.png" />
+    <Resource Include="О животных.png" />
+    <Resource Include="ФОН.png" />
+    <Resource Include="ФОН2.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="Zoo_WPF.MainWindow"
+
+
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zoo_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="773" Width="785">
+    <Grid>
+        <Image Source="/ФОН.png" Stretch="Fill"/>
+        <Button x:Name="Button_Info_Ani"  Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,265,0,0" Height="103" Width="348" Click="Button_Info_Ani_Click">
+            <Image Source="/О животных.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-2,-5,0,0"/>
+        </Button>
+        <Button x:Name="Button_Info_Tick"  Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,390,0,0" Height="102" Width="348" Click="Button_Info_Tick_Click">
+            <Image Source="/О билетах.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-2,-5,0,0"/>
+        </Button>
+        <Button x:Name="Button_Zakaz"  Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,522,0,0" Height="102" Width="348" Click="Button_Zakaz_Click">
+            <Image Source="/Заказ.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-2,-5,0,0"/>
+        </Button>
+        <Button x:Name="Button_Exit"  Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="545,659,0,0" Height="74" Width="129">
+            <Image Source="/Выход.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-2,-5,0,0"/>
+        </Button>
+    </Grid>
+</Window>
